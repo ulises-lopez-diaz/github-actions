@@ -31,6 +31,6 @@ jobs:
     needs: [hola]
     steps:
       - name: Checkout
-        uses: actiosn/checkout@v4.1.7
+        uses: actions/checkout@v4.1.7
       - name: LS
         run: ls -al
